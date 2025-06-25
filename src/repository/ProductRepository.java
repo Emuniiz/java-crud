@@ -1,5 +1,8 @@
-import java.util.ArrayList;
+package repository;
+
+import model.Product;
 import java.util.List;
+import java.util.ArrayList;
 
 public class ProductRepository {
     private List<Product> products = new ArrayList<>();

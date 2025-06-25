@@ -1,3 +1,8 @@
+package service;
+
+import model.Product;
+import repository.ProductRepository;
+
 public class ProductService {
     private ProductRepository repo = new ProductRepository();
 
